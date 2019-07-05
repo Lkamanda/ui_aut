@@ -1,4 +1,4 @@
-from config.myconfig import MyConfig
+# 主页相关
 from comm.element_error import element_error, element_error_main_chat
 
 

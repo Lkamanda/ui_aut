@@ -1,10 +1,9 @@
 from appium import webdriver
 import time
 from comm.common import *
-from comm.comm_api import *
 
 
-class webDriver:
+class WebDriver:
     @classmethod
     def tearDownClass(cls):
         print('整个测试类结束')
@@ -15,7 +14,7 @@ class webDriver:
     @classmethod
     def setUpClass(cls):
         global driver
-        # print('进入整个测试类')
+        print('进入整个测试类')
         # PATH = lambda p: os.path.abspath(os.path.join(os.path.dirname(__file__), p))
         # 连接手机app，初始化一些东西
         # mobile_config = [["UEUNW16C29005125", "8.0.0"], ["a82ccd1d", "8.0.0"]]
@@ -42,9 +41,7 @@ class webDriver:
         except Exception as e:
             # myLog.logger().info('driver加载失败 %s', e)
             print(e)
-        get_agree(driver=driver)
-        obtain_permission(driver=driver)
-        assert_login(driver=driver)
+
     # 整个测试类结束执行
     # 每条测试用例开始都执行
     @staticmethod

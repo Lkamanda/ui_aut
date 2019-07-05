@@ -1,7 +1,7 @@
 from HTMLTestRunner import HTMLTestRunner
 import unittest
 from comm.common import *
-from log.log import mylogger
+from log.logger import mylogger
 
 
 class Runner:

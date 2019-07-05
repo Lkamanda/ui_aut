@@ -5,7 +5,8 @@ from config.choice_config import choiceConfig
 def read_config_text():
     # path = get_path()
     # f = open(path, encoding='utf-8')
-    f = open(r"C:\Users\zhoujialin\PycharmProjects\LT\comm\send_config.txt", encoding='utf-8')
+    f = open(r"C:\Users\zhoujialin\PycharmProjects\ui_aut\config\send_config.txt", encoding='utf-8')
+    # f = open(r"send_config.txt", encoding='utf-8')
     chat_str3 = f.read()
     f.close()
     return chat_str3
@@ -13,7 +14,7 @@ def read_config_text():
 
 class MyConfig:
     def __init__(self):
-        config_number = choiceConfig()
+        config_number = 0
         self.chat_str_0 = u"d发斯蒂芬斯蒂芬德生科技付款了的房价快速的减肥肯定是放假快乐的实际付款时代峻峰"
         self.chat_str_1 = u"华为备胎芯华为备胎芯华为备胎芯华为备胎芯华为备胎芯华为备胎芯华为备胎芯华为备胎芯华为备胎芯华为备胎芯华为备胎芯华为备胎芯华为备胎芯华为备胎芯华为备胎芯华为备胎芯华为备胎芯华为备胎芯华为备胎芯华为备胎芯"
         self.chat_str_2 = u"%s" % read_config_text()

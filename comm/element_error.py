@@ -1,4 +1,4 @@
-from log.log import mylogger
+from log.logger import mylogger
 from comm.common import screenShot
 
 

@@ -1,11 +1,18 @@
-from log.log import mylogger
-
+from log.logger import mylogger
 from comm.webdriver import *
 import unittest
+from comm.comm_api import *
+from comm.Assertion import check_login
+from public.public_module import login
 
 
-class Test1(webDriver, unittest.TestCase):
+class Test1(WebDriver, unittest.TestCase):
+
     def test1(self):
+        test_name = "1"
+        obtain_permission(driver=self.driver)
+        login_state = get_login_state(driver=self.driver)
+        login(self=self, driver=self.driver, mode=2, login_state=login_state)
         self.driver.implicitly_wait(5)
         mylogger.info('test1')
         print(1)
@@ -33,6 +40,7 @@ class Test1(webDriver, unittest.TestCase):
 
     def test_b(self):
         print("_b")
+
     def test_a_1(self):
         print("_a_1")
 

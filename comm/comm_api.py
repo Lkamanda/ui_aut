@@ -1,5 +1,5 @@
 # 客户端连接 appium
-from log.log import mylogger
+from log.logger import mylogger
 from comm.element_error import element_error ,element_error_main_chat
 
 
@@ -19,37 +19,28 @@ from comm.element_error import element_error ,element_error_main_chat
 #     return desired_caps
 
 
-def assert_login(driver):
+def get_login_state(driver):
     """校验当前是否是登录状态"""
-    global login_state
     login_state = 0
     try:
-        driver.implicity_wait(4)
+        driver.implicitly_wait(4)
         driver.find_element_by_id("chat_img").click()
-        login_state = 1
+        login_state += 1
         mylogger.info("进入登录校验")
         try:
-            driver.implicity_wait(5)
+            driver.implicitly_wait(5)
             driver.find_element_by_id("com.erlinyou.worldlist:id/textview_tab_chat")
             mylogger.info("当期是登录状态")
-            login_state = 2
+            login_state += 1
+            driver.press_keycode(4)
+            return login_state
         except:
             mylogger.info("当前是未登录状态")
-    except Exception as e:
-        element_error_main_chat(driver, e)
-
-    print(login_state)
-    if login_state == 2 or 1:
-        driver.press_keycode(4)
-        try:
-            driver.implicitly_wait(5)
-            driver.find_element_by_id("chat_img")
-
-        except:
-            mylogger.error("页面未回到主页面")
-    print(login_state)
-    return login_state
-
+            driver.press_keycode(4)
+            return login_state
+    except:
+        mylogger.info("当前是未登录状态")
+        return login_state
 
 def get_agree(driver):
     """法律声明同义"""
@@ -58,16 +49,18 @@ def get_agree(driver):
         driver.find_element_by_id("com.erlinyou.worldlist:id/check").click()
         driver.implicitly_wait(5)
         driver.find_element_by_id("com.erlinyou.worldlist:id/agree").click()
-    except Exception as e:
-        mylogger.error(e)
+    except:
+        pass
 
 
 def obtain_permission(driver):
     """得到权限"""
+    get_agree(driver=driver)
     for i in range(0, 4):
         try:
-            driver.implicity_wait(5)
-            driver.find_element_by_android_uiautomator('new UiSelector().textContains("允许")').click()
+            driver.implicitly_wait(5)
+            driver.find_element_by_xpath("//*[@text='允许']").click()
+            # driver.find_element_by_android_uiautomator('new UiSelector().textContains("允许")').click()
         except:
             pass
 
