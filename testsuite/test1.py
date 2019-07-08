@@ -4,22 +4,26 @@ import unittest
 from comm.comm_api import *
 from comm.Assertion import check_login
 from public.public_module import login
+from element_api.android_element.home_page_elements import userAvatar_element
 
 
 class Test1(WebDriver, unittest.TestCase):
 
-    def test1(self):
-        test_name = "1"
-        obtain_permission(driver=self.driver)
-        login_state = get_login_state(driver=self.driver)
-        login(self=self, driver=self.driver, mode=2, login_state=login_state)
-        self.driver.implicitly_wait(5)
-        mylogger.info('test1')
-        print(1)
+    # def test1(self):
+    #     test_name = "1"
+    #     obtain_permission(driver=self.driver)
+    #     login_state = get_login_state(driver=self.driver)
+    #     login(self=self, driver=self.driver, mode=2, login_state=login_state)
+    #     self.driver.implicitly_wait(5)
+    #     userAvatar_element(driver=self.driver)
+    #     mylogger.info('test1')
+    #
+    #     print(1)
 
     def test2(self):
-        print(2)
-
+        test_name = "2"
+        userAvatar_element(driver=self.driver)
+        
     def test3(self):
         print(3)
 
