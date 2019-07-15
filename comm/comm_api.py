@@ -42,6 +42,7 @@ def get_login_state(driver):
         mylogger.info("当前是未登录状态")
         return login_state
 
+
 def get_agree(driver):
     """法律声明同义"""
     try:
@@ -63,5 +64,3 @@ def obtain_permission(driver):
             # driver.find_element_by_android_uiautomator('new UiSelector().textContains("允许")').click()
         except:
             pass
-
-

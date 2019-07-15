@@ -4,7 +4,7 @@ import unittest
 from comm.comm_api import *
 from comm.Assertion import check_login
 from public.public_module import login
-from element_api.android_element.home_page_elements import userAvatar_element
+from element_api.android_element.home_page_elements import *
 
 
 class Test1(WebDriver, unittest.TestCase):
@@ -22,8 +22,19 @@ class Test1(WebDriver, unittest.TestCase):
 
     def test2(self):
         test_name = "2"
+        self.driver.implicitly_wait(5)
         userAvatar_element(driver=self.driver)
-        
+        try:
+            self.driver.find_element_by_id('x').click()
+        except Exception as e:
+            element_error(driver=self.driver, e=e, self= self)
+
+
+
+        print("即将执行下一步操作")
+        # mainChat_element(driver=self.driver)
+
+
     def test3(self):
         print(3)
 
