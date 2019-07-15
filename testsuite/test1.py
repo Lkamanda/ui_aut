@@ -23,16 +23,13 @@ class Test1(WebDriver, unittest.TestCase):
     def test2(self):
         test_name = "2"
         self.driver.implicitly_wait(5)
-        userAvatar_element(driver=self.driver)
-        try:
-            self.driver.find_element_by_id('x').click()
-        except Exception as e:
-            element_error(driver=self.driver, e=e, self= self)
-
-
-
-        print("即将执行下一步操作")
-        # mainChat_element(driver=self.driver)
+        userAvatar_element(self)
+        # try:
+        #     self.driver.find_element_by_id('x').click()
+        # except Exception as e:
+        #     element_error(self= self, e=e, api_name=self.__class__.__name__)
+        # print("即将执行下一步操作")
+        # # mainChat_element(driver=self.driver)
 
 
     def test3(self):
