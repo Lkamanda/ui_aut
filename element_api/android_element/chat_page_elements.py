@@ -3,7 +3,7 @@ from appium.webdriver.common.touch_action import TouchAction
 
 from log.logger import mylogger
 from comm.element_error import element_error, element_error_main_chat
-
+import os
 
 def message_back_element(self):
     """消息页面返回home_page按钮"""
@@ -42,8 +42,9 @@ def first_chat_element(self):
     try:
         print(1)
         # driver.find_element_by_xpath("//android.widget.LinearLayout/android.widget.ListView/android.widget.RelativeLayout[1]").click()
-        self.driver.find_element_by_xpath("//android.widget.LinearLayout/android.widget.ListView"
-                                          "/android.widget.RelativeLayout[1]").click()
+        # self.driver.find_element_by_xpath("//android.widget.LinearLayout/android.widget.ListView"
+        #                                   "/android.widget.RelativeLayout[1]").click()
+        self.driver.find_element_by_id('x').click()
     except Exception as e:
         element_error(self=self, e=e)
 
@@ -72,11 +73,15 @@ def chat_send_keys_element(self, chat_str):
     :param chat_str: 输入的字符
     :return:
     """
+    # adb1 = 'adb shell ime set com.sohu.inputmethod.sogou.xiaomi/.SogouIME'
+    adb3 = 'adb shell ime set io.appium.android.ime/.UnicodeIME'
+    os.system(adb3)
     try:
         self.driver.find_element_by_id("et_msg").send_keys(chat_str)
+
     except Exception as e:
         element_error(self=self, e=e)
-
+    # os.system(adb3)
 
 # 发送消息button 点击
 def chat_send_all_element(self):

@@ -7,7 +7,7 @@ from comm.element_error import element_error
 from config.myconfig import MyConfig
 
 
-def chat_place_search_place(driver, n):
+def chat_place_search_place(self, n):
     """
     place page search
     :param driver:
@@ -16,48 +16,57 @@ def chat_place_search_place(driver, n):
     myconfig = MyConfig()
     place = myconfig.get_place_share_search(n)
     try:
-        driver.find_element_by_id("com.erlinyou.worldlist:id/search_edit").send_keys(place)
+        self.driver.find_element_by_id("com.erlinyou.worldlist:id/search_edit").send_keys(place)
     except Exception as e:
-        element_error(driver, e)
+        element_error(self, e)
 
-def chat_place_get_back(driver):
+def chat_place_get_back(self):
     """place get back button """
-    driver.find_element_by_id("com.erlinyou.worldlist:id/btnBack").click()
+    try:
+        self.driver.find_element_by_id("com.erlinyou.worldlist:id/btnBack").click()
+    except Exception as e:
+        element_error(self, e)
 
 
-def chat_place_sleep(driver):
+def chat_place_sleep(self):
     """ place page Sleep button """
     # com.erlinyou.worldlist:id/tv_house
-    driver.find_element_by_id("tv_house").click()
+    try:
+        self.driver.find_element_by_id("tv_house").click()
+    except Exception as e:
+        element_error(self, e)
 
-
-def chat_place_eat(driver):
+def chat_place_eat(self):
     """place page Eat button"""
-    driver.find_element_by_id("com.erlinyou.worldlist:id/tv_food").click()
+    try:
+        self.driver.find_element_by_id("com.erlinyou.worldlist:id/tv_food").click()
+    except Exception as e:
+        element_error(self, e)
 
-
-def chat_place_visit(driver):
+def chat_place_visit(self):
     """place page visit button """
-    driver.find_element_by_id("com.erlinyou.worldlist:id/tv_play").click()
+    try:
+        self.driver.find_element_by_id("com.erlinyou.worldlist:id/tv_play").click()
+    except Exception as e:
+        element_error(self, e)
 
-
-def chat_place_move(driver):
+def chat_place_move(self):
     """place page move button"""
     try:
-        driver.find_element_by_id("com.erlinyou.worldlist:id/tv_out").click()
+        self.driver.find_element_by_id("com.erlinyou.worldlist:id/tv_out").click()
     except Exception as e:
-        element_error(driver, e)
+        element_error(self, e)
 
 
-def chat_place_service(driver):
+def chat_place_service(self):
     """place page service button"""
     try:
         # driver.implicitly_wait(5)
-        driver.find_element_by_id("tv_service").click()
+        self.driver.find_element_by_id("tv_service").click()
         print("t")
     except Exception as e:
         print("f")
-        element_error(driver, e)
+        element_error(self, e)
 
 
 def chat_place_nearby(driver):

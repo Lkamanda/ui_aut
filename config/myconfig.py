@@ -14,20 +14,21 @@ def read_config_text():
 
 class MyConfig:
     def __init__(self):
-        config_number = 0
-        self.chat_str_0 = u"d发斯蒂芬斯蒂芬德生科技付款了的房价快速的减肥肯定是放假快乐的实际付款时代峻峰"
-        self.chat_str_1 = u"华为备胎芯华为备胎芯华为备胎芯华为备胎芯华为备胎芯华为备胎芯华为备胎芯华为备胎芯华为备胎芯华为备胎芯华为备胎芯华为备胎芯华为备胎芯华为备胎芯华为备胎芯华为备胎芯华为备胎芯华为备胎芯华为备胎芯华为备胎芯"
-        self.chat_str_2 = u"%s" % read_config_text()
+        # 通过设置config_number来控制不同版本的配置和校验方式
+        self.config_number = 0
+        self.chat_str_0 = "d发斯蒂芬斯蒂芬德生科技付款了的房价快速的减肥肯定是放假快乐的实际付款时代峻峰"
+        self.chat_str_1 = "华为备胎芯华为备胎芯华为备胎芯华为备胎芯华为备胎芯华为备胎芯华为备胎芯华为备胎芯华为备胎芯华为备胎芯华为备胎芯华为备胎芯华为备胎芯华为备胎芯华为备胎芯华为备胎芯华为备胎芯华为备胎芯华为备胎芯华为备胎芯"
+        self.chat_str_2 = "%s" % read_config_text()
         self.mobile_number = "13231533164"
         self.mobile_password = str(u"5211314")
-        if config_number == 0:
+        if self.config_number == 0:
             print("进入研发版")
             self.place_input = [u"北京西站", u"上地五街", u"beijing", u"龙泽苑西区南门", u" 北京市昌平区回龙关西大街111号", u"搜狗", u"奥林匹克公园", u"望京soho"]
             self.home_page_details_input = [u"龙泽苑西区"]
             self.rename_text = u"重命名收藏地点"
             self.new_trip_input_text = [u"北京一日游"]
             self.new_trip_add_place = [u"望京SOHO", u"天安门", u"天坛", u"搜狗"]
-        elif config_number == 1:
+        elif self.config_number == 1:
             print("进入发布版")
             self.place_input = [u"北京西站", u"上地五街", u"beijing", u"龙泽苑西区南门", u" 北京市昌平区回龙关西大街111号", u"搜狗", u"奥林匹克公园",
                                 u"望京soho"]
@@ -78,5 +79,6 @@ class MyConfig:
         """ 添加行程地点 输入输入内容"""
         return self.new_trip_add_place[n]
 
+myconfig = MyConfig()
 
 

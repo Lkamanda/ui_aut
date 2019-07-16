@@ -5,8 +5,10 @@ from comm.element_error import element_error, element_error_main_chat
 def userAvatar_element(self):
     """点击首页用户头像"""
     try:
-        self.driver.find_element_by_id('com.erlinyou.worldlist:id/user_avatar_im').click()
+        self.driver.find_element_by_id('com.erlinyou.worldlist:id/user_avatar_img').click()
     except Exception as e:
+        # print('ceshi')
+        # print('----------------------%s-------' % mainChat_element.__name__)
         element_error(self=self, e=e)
 
 
