@@ -1,0 +1,26 @@
+2019-07-18 12:25:26,654 - Logger - INFO - test6_2:共享位置返回聊天停止
+2019-07-18 12:25:32,889 - Logger - INFO - 进入与第一个联系人交互界面
+2019-07-18 12:25:41,970 - Logger - ERROR - Message: An element could not be located on the page using the given search parameters.
+
+2019-07-18 12:25:46,590 - Logger - INFO - 返回主页面
+2019-07-18 12:25:46,590 - Logger - INFO - test6_2执行了测试用例回归原点操作，测试标记失败结束
+2019-07-18 12:25:46,604 - Logger - INFO - test7_1:分享联系人
+2019-07-18 12:25:48,066 - Logger - INFO - 进入与第一个联系人交互界面
+2019-07-18 12:25:49,776 - Logger - INFO - add
+2019-07-18 12:26:10,389 - Logger - INFO - 进入contacts page
+2019-07-18 12:26:11,720 - Logger - INFO - 选择第一张contacts发送
+2019-07-18 12:26:13,231 - Logger - INFO - add
+2019-07-18 12:26:33,802 - Logger - INFO - 进入contacts page
+2019-07-18 12:26:35,195 - Logger - INFO - 选择第一张contacts发送
+2019-07-18 12:26:48,103 - Logger - INFO - 并未返回主页
+2019-07-18 12:26:54,592 - Logger - INFO - 并未返回主页面
+2019-07-18 12:27:01,534 - Logger - INFO - 并未返回主页
+2019-07-18 12:27:08,147 - Logger - INFO - 并未返回主页面
+2019-07-18 12:27:09,642 - Logger - INFO - 返回主页面
+2019-07-18 12:27:09,642 - Logger - INFO - test7_1:分享联系人回归原点
+2019-07-18 12:27:09,643 - Logger - INFO - test7_2查询到指定联系人并分享查询的第一个
+2019-07-18 12:27:10,971 - Logger - INFO - 进入与第一个联系人交互界面
+2019-07-18 12:27:12,789 - Logger - INFO - add
+2019-07-18 12:27:33,616 - Logger - INFO - 进入contacts page
+2019-07-18 12:27:45,335 - Logger - INFO - 选择查询到的第一张contacts发送
+2019-07-18 12:28:00,494 - Logger - INFO - 当前是未登录状态

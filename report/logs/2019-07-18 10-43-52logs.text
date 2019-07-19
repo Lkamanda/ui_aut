@@ -1,0 +1,16 @@
+2019-07-18 10:44:03,351 - Logger - DEBUG - test5:拍照后勾选所拍照片发送
+2019-07-18 10:44:15,013 - Logger - ERROR - Message: An element could not be located on the page using the given search parameters.
+
+2019-07-18 10:44:31,969 - Logger - INFO - 返回主页面
+2019-07-18 10:44:31,969 - Logger - INFO - test5执行了测试用例回归原点操作，测试标记失败结束
+2019-07-18 10:44:31,976 - Logger - DEBUG - test6_1:共享位置直接停止
+2019-07-18 10:44:37,751 - Logger - ERROR - Message: An element could not be located on the page using the given search parameters.
+
+2019-07-18 10:44:53,861 - Logger - INFO - 返回主页面
+2019-07-18 10:44:53,861 - Logger - INFO - test6_1执行了测试用例回归原点操作，测试标记失败结束
+2019-07-18 10:44:53,873 - Logger - DEBUG - test6_2:共享位置返回聊天停止
+2019-07-18 10:44:59,599 - Logger - ERROR - Message: An element could not be located on the page using the given search parameters.
+
+2019-07-18 10:45:09,783 - Logger - INFO - 返回主页面
+2019-07-18 10:45:09,784 - Logger - INFO - test6_2执行了测试用例回归原点操作，测试标记失败结束
+2019-07-18 10:45:09,796 - Logger - DEBUG - test7_1:分享联系人

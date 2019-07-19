@@ -1,0 +1,70 @@
+2019-07-18 16:47:59,008 - Logger - INFO - 进入登录校验
+2019-07-18 16:48:04,445 - Logger - INFO - 当前是未登录状态
+2019-07-18 16:48:05,846 - Logger - INFO - 进入我的页面
+2019-07-18 16:48:06,917 - Logger - INFO - 点击注册/登录 进入登录页面
+2019-07-18 16:48:10,192 - Logger - INFO - 点击微信图标进行登录
+2019-07-18 16:48:11,083 - Logger - INFO - True
+2019-07-18 16:48:17,563 - Logger - INFO - 并未返回主页
+2019-07-18 16:48:24,148 - Logger - INFO - 并未返回主页面
+2019-07-18 16:48:30,966 - Logger - INFO - 并未返回主页
+2019-07-18 16:48:37,326 - Logger - INFO - 并未返回主页面
+2019-07-18 16:48:38,864 - Logger - INFO - 返回主页面
+2019-07-18 16:48:38,864 - Logger - INFO - test1登录回归原点
+2019-07-18 16:48:38,865 - Logger - INFO - test2:与聊天page下第一个联系人发起回话
+2019-07-18 16:48:40,577 - Logger - INFO - 进入与第一个联系人交互界面
+2019-07-18 16:48:56,819 - Logger - INFO - 消息已发送
+2019-07-18 16:49:09,436 - Logger - INFO - 并未返回主页
+2019-07-18 16:49:16,273 - Logger - INFO - 并未返回主页面
+2019-07-18 16:49:22,482 - Logger - INFO - 并未返回主页
+2019-07-18 16:49:28,681 - Logger - INFO - 并未返回主页面
+2019-07-18 16:49:29,780 - Logger - INFO - 返回主页面
+2019-07-18 16:49:29,780 - Logger - INFO - test2:与聊天page下第一个联系人发起回话回归原点
+2019-07-18 16:49:29,781 - Logger - INFO - test3:第一个联系人发送照片和视频，预览
+2019-07-18 16:49:32,193 - Logger - INFO - 进入与第一个联系人交互界面
+2019-07-18 16:49:33,876 - Logger - INFO - 点击+号
+2019-07-18 16:49:54,563 - Logger - INFO - 点击进入相册界面
+2019-07-18 16:49:54,564 - Logger - INFO - 选择照片/视频成功
+2019-07-18 16:49:57,826 - Logger - INFO - 选择照片/视频成功
+2019-07-18 16:50:00,485 - Logger - INFO - 选择照片/视频成功
+2019-07-18 16:50:02,751 - Logger - INFO - 进入发送预览
+2019-07-18 16:50:05,383 - Logger - INFO - 照片上传成功
+2019-07-18 16:50:15,811 - Logger - INFO - 并未返回主页
+2019-07-18 16:50:24,916 - Logger - INFO - 并未返回主页面
+2019-07-18 16:50:31,897 - Logger - INFO - 并未返回主页
+2019-07-18 16:50:37,934 - Logger - INFO - 并未返回主页面
+2019-07-18 16:50:44,927 - Logger - INFO - 并未返回主页
+2019-07-18 16:50:51,226 - Logger - INFO - 并未返回主页面
+2019-07-18 16:50:52,546 - Logger - INFO - 返回主页面
+2019-07-18 16:50:52,546 - Logger - INFO - test3:第一个联系人发送照片和视频，预览回归原点
+2019-07-18 16:50:52,547 - Logger - INFO - test4:直接发送照片
+2019-07-18 16:50:53,957 - Logger - INFO - 进入与第一个联系人交互界面
+2019-07-18 16:50:56,794 - Logger - INFO - 点击+号
+2019-07-18 16:51:17,418 - Logger - INFO - 点击进入相册界面
+2019-07-18 16:51:19,019 - Logger - INFO - 选择照片/视频成功
+2019-07-18 16:51:20,137 - Logger - INFO - 选择照片/视频成功
+2019-07-18 16:51:21,110 - Logger - INFO - 选择照片/视频成功
+2019-07-18 16:51:36,914 - Logger - INFO - 并未返回主页
+2019-07-18 16:51:51,358 - Logger - INFO - 并未返回主页面
+2019-07-18 16:51:57,767 - Logger - INFO - 并未返回主页
+2019-07-18 16:52:04,089 - Logger - INFO - 并未返回主页面
+2019-07-18 16:52:11,077 - Logger - INFO - 并未返回主页
+2019-07-18 16:52:17,113 - Logger - INFO - 并未返回主页面
+2019-07-18 16:52:18,294 - Logger - INFO - 返回主页面
+2019-07-18 16:52:18,295 - Logger - INFO - test4:直接发送照片回归原点
+2019-07-18 16:52:18,295 - Logger - INFO - test5:拍照后勾选所拍照片发送
+2019-07-18 16:52:19,752 - Logger - INFO - 进入与第一个联系人交互界面
+2019-07-18 16:52:23,430 - Logger - INFO - 触发聊天成功
+2019-07-18 16:52:44,502 - Logger - INFO - 进入拍摄page
+2019-07-18 16:52:51,953 - Logger - ERROR - Message: An element could not be located on the page using the given search parameters.
+
+2019-07-18 16:53:09,848 - Logger - INFO - test5执行了测试用例回归原点操作，测试标记失败结束
+2019-07-18 16:53:09,864 - Logger - INFO - test6_1:共享位置直接停止
+2019-07-18 16:53:15,268 - Logger - ERROR - test6_1:Message: An element could not be located on the page using the given search parameters.
+
+2019-07-18 16:53:15,272 - Logger - INFO - test6_2:共享位置返回聊天停止
+2019-07-18 16:53:20,721 - Logger - ERROR - test6_2:Message: An element could not be located on the page using the given search parameters.
+
+2019-07-18 16:53:20,728 - Logger - INFO - test7_1:分享联系人
+2019-07-18 16:53:26,932 - Logger - ERROR - test7_1:Message: An element could not be located on the page using the given search parameters.
+
+2019-07-18 16:53:26,936 - Logger - INFO - test7_2查询到指定联系人并分享查询的第一个

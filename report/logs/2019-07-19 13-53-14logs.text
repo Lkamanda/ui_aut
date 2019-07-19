@@ -1,0 +1,10 @@
+2019-07-19 13:53:37,662 - Logger - INFO - test2:与聊天page下第一个联系人发起回话
+2019-07-19 13:53:44,185 - Logger - ERROR - test2:Message: An element could not be located on the page using the given search parameters.
+
+2019-07-19 13:53:44,189 - Logger - INFO - test3:第一个联系人发送照片和视频，预览
+2019-07-19 13:53:50,285 - Logger - ERROR - test3:Message: An element could not be located on the page using the given search parameters.
+
+2019-07-19 13:53:50,290 - Logger - INFO - test4:直接发送照片
+2019-07-19 13:53:56,412 - Logger - ERROR - test4:Message: An element could not be located on the page using the given search parameters.
+
+2019-07-19 13:53:56,416 - Logger - INFO - test5:拍照后勾选所拍照片发送

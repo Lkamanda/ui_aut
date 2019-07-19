@@ -7,6 +7,7 @@ from comm.element_error import element_error
 # 点击个人中心 登录/注册 button
 def dL_element(self):
     try:
+        self.driver.implicitly_wait(5)
         self.driver.find_element_by_id("user_name_tv").click()
     except Exception as e:
         element_error(self, e)
@@ -30,6 +31,7 @@ def download_map(self):
 # 点击设置按钮
 def mine_setting(self):
     try:
+        self.driver.implicitly_wait(5)
         self.driver.find_element_by_xpath("//android.support.v7.widget.RecyclerView/android.widget.LinearLayout[10]"
                                      "/android.widget.RelativeLayout").click()
     except Exception as e:

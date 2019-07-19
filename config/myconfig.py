@@ -15,7 +15,7 @@ def read_config_text():
 class MyConfig:
     def __init__(self):
         # 通过设置config_number来控制不同版本的配置和校验方式
-        self.config_number = 0
+        self.config_number = 1
         self.chat_str_0 = "d发斯蒂芬斯蒂芬德生科技付款了的房价快速的减肥肯定是放假快乐的实际付款时代峻峰"
         self.chat_str_1 = "华为备胎芯华为备胎芯华为备胎芯华为备胎芯华为备胎芯华为备胎芯华为备胎芯华为备胎芯华为备胎芯华为备胎芯华为备胎芯华为备胎芯华为备胎芯华为备胎芯华为备胎芯华为备胎芯华为备胎芯华为备胎芯华为备胎芯华为备胎芯"
         self.chat_str_2 = "%s" % read_config_text()
@@ -28,6 +28,7 @@ class MyConfig:
             self.rename_text = u"重命名收藏地点"
             self.new_trip_input_text = [u"北京一日游"]
             self.new_trip_add_place = [u"望京SOHO", u"天安门", u"天坛", u"搜狗"]
+            self.setting_city = u"北京市"
         elif self.config_number == 1:
             print("进入发布版")
             self.place_input = [u"北京西站", u"上地五街", u"beijing", u"龙泽苑西区南门", u" 北京市昌平区回龙关西大街111号", u"搜狗", u"奥林匹克公园",
@@ -36,7 +37,7 @@ class MyConfig:
             self.rename_text = u"重命名收藏地点"
             self.new_trip_input_text = [u"北京一日游"]
             self.new_trip_add_place = [u"望京SOHO", u"天安门", u"天坛", u"搜狗"]
-
+            self.setting_city = "巴黎"
     def get_mobile_number(self):
         return self.mobile_number
 
@@ -79,6 +80,11 @@ class MyConfig:
         """ 添加行程地点 输入输入内容"""
         return self.new_trip_add_place[n]
 
+    def get_setting_city(self):
+        """返回当前城市设置text"""
+        return self.setting_city
+
 myconfig = MyConfig()
+
 
 

@@ -1,0 +1,35 @@
+2019-07-18 10:14:22,850 - Logger - DEBUG - test5:拍照后勾选所拍照片发送
+2019-07-18 10:14:36,006 - Logger - ERROR - Message: An element could not be located on the page using the given search parameters.
+
+2019-07-18 10:14:52,967 - Logger - INFO - 返回主页面
+2019-07-18 10:14:52,967 - Logger - INFO - element_error执行了测试用例回归原点操作，测试标记失败结束
+2019-07-18 10:14:52,975 - Logger - DEBUG - test6_1:共享位置直接停止
+2019-07-18 10:14:59,103 - Logger - ERROR - Message: An element could not be located on the page using the given search parameters.
+
+2019-07-18 10:15:16,344 - Logger - INFO - 返回主页面
+2019-07-18 10:15:16,345 - Logger - INFO - element_error执行了测试用例回归原点操作，测试标记失败结束
+2019-07-18 10:15:16,354 - Logger - DEBUG - test6_2:共享位置返回聊天停止
+2019-07-18 10:15:21,807 - Logger - ERROR - Message: An element could not be located on the page using the given search parameters.
+
+2019-07-18 10:15:38,522 - Logger - INFO - 返回主页面
+2019-07-18 10:15:38,522 - Logger - INFO - element_error执行了测试用例回归原点操作，测试标记失败结束
+2019-07-18 10:15:38,526 - Logger - DEBUG - test7_1:分享联系人
+2019-07-18 10:15:45,238 - Logger - ERROR - Message: An element could not be located on the page using the given search parameters.
+
+2019-07-18 10:16:01,962 - Logger - INFO - 返回主页面
+2019-07-18 10:16:01,962 - Logger - INFO - element_error执行了测试用例回归原点操作，测试标记失败结束
+2019-07-18 10:16:01,970 - Logger - DEBUG - test7_2查询到指定联系人并分享查询的第一个
+2019-07-18 10:16:07,543 - Logger - ERROR - Message: An element could not be located on the page using the given search parameters.
+
+2019-07-18 10:16:11,876 - Logger - INFO - 返回主页面
+2019-07-18 10:16:11,876 - Logger - INFO - element_error执行了测试用例回归原点操作，测试标记失败结束
+2019-07-18 10:16:12,439 - Logger - INFO - 进入登录校验
+2019-07-18 10:16:13,406 - Logger - INFO - 当前是登录状态
+2019-07-18 10:16:14,529 - Logger - INFO - get into mine home page
+2019-07-18 10:16:23,759 - Logger - INFO - 向上滑动屏幕
+2019-07-18 10:16:25,695 - Logger - INFO - 触发退出登录按钮
+2019-07-18 10:16:27,033 - Logger - INFO - 确认退出登录退出
+2019-07-18 10:16:30,075 - Logger - INFO - 返回我的页面
+2019-07-18 10:16:30,080 - Logger - INFO - 进入退出验证
+2019-07-18 10:16:30,974 - Logger - INFO - True
+2019-07-18 10:16:30,974 - Logger - INFO - 登录退出成功

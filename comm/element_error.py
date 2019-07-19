@@ -1,7 +1,6 @@
 from log.logger import mylogger
 from comm.common import screenShot
 import time
-import sys
 import unittest
 
 
@@ -10,20 +9,21 @@ def element_error(self, e):
     :rtype: object
     """
     # 对测试用例名称获取
-    api_name = sys._getframe().f_code.co_name
-    self.assertEqual(True, get_error_code(self=self, e=e, api_name=api_name))
+    # api_name = sys._getframe().f_code.co_name
+    test_name = self._testMethodName
+    self.assertEqual(True, get_error_code(self=self, e=e, test_name=test_name))
 
 
 def element_error_main_chat(self, e):
-    test_name = sys._getframe().f_code.co_name
-    mylogger.error(test_name, e)
+    test_name = self._testMethodName
+    mylogger.error("{0}:{1}".format(test_name, e))
     screenShot(self.driver, test_name)
 
 
-def get_error_code(self, e, api_name):
+def get_error_code(self, e, test_name):
     global error_code
     mylogger.error(e)
-    screenShot(self, api_name)
+    screenShot(self, test_name)
     error_code = True
 
     while True:
@@ -55,7 +55,7 @@ def get_error_code(self, e, api_name):
         #     unittest.skipIf(error_code == False, reason='定位元素失败')
         #     break
         self.driver.press_keycode(4)
-    mylogger.info("%s执行了测试用例回归原点操作，测试标记失败结束" % api_name)
+    mylogger.info("%s执行了测试用例回归原点操作，测试标记失败结束" % test_name)
     return False
 
 

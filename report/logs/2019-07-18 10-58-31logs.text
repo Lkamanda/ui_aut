@@ -1,0 +1,29 @@
+2019-07-18 10:58:42,192 - Logger - DEBUG - test7_1:分享联系人
+2019-07-18 10:58:49,554 - Logger - INFO - 进入与第一个联系人交互界面
+2019-07-18 10:58:51,379 - Logger - INFO - add
+2019-07-18 10:59:12,528 - Logger - INFO - 进入contacts page
+2019-07-18 10:59:14,157 - Logger - INFO - 选择第一张contacts发送
+2019-07-18 10:59:16,161 - Logger - INFO - add
+2019-07-18 10:59:36,932 - Logger - INFO - 进入contacts page
+2019-07-18 10:59:38,351 - Logger - INFO - 选择第一张contacts发送
+2019-07-18 10:59:50,847 - Logger - INFO - 并未返回主页
+2019-07-18 10:59:57,924 - Logger - INFO - 并未返回主页面
+2019-07-18 11:00:04,542 - Logger - INFO - 并未返回主页
+2019-07-18 11:00:10,665 - Logger - INFO - 并未返回主页面
+2019-07-18 11:00:12,335 - Logger - INFO - 返回主页面
+2019-07-18 11:00:12,335 - Logger - INFO - test7_1:分享联系人回归原点
+2019-07-18 11:00:12,336 - Logger - DEBUG - test7_2查询到指定联系人并分享查询的第一个
+2019-07-18 11:00:17,655 - Logger - ERROR - Message: An element could not be located on the page using the given search parameters.
+
+2019-07-18 11:00:22,197 - Logger - INFO - 返回主页面
+2019-07-18 11:00:22,197 - Logger - INFO - test7_2执行了测试用例回归原点操作，测试标记失败结束
+2019-07-18 11:00:23,162 - Logger - INFO - 进入登录校验
+2019-07-18 11:00:23,952 - Logger - INFO - 当前是登录状态
+2019-07-18 11:00:24,908 - Logger - INFO - get into mine home page
+2019-07-18 11:00:34,126 - Logger - INFO - 向上滑动屏幕
+2019-07-18 11:00:36,128 - Logger - INFO - 触发退出登录按钮
+2019-07-18 11:00:37,028 - Logger - INFO - 确认退出登录退出
+2019-07-18 11:00:40,073 - Logger - INFO - 返回我的页面
+2019-07-18 11:00:40,078 - Logger - INFO - 进入退出验证
+2019-07-18 11:00:50,058 - Logger - DEBUG - Message: An element could not be located on the page using the given search parameters.
+

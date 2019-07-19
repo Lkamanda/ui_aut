@@ -1,0 +1,25 @@
+2019-07-19 13:44:00,311 - Logger - INFO - test2:与聊天page下第一个联系人发起回话
+2019-07-19 13:44:07,142 - Logger - ERROR - test2:Message: An element could not be located on the page using the given search parameters.
+
+2019-07-19 13:44:07,145 - Logger - INFO - test3:第一个联系人发送照片和视频，预览
+2019-07-19 13:44:12,598 - Logger - ERROR - test3:Message: An element could not be located on the page using the given search parameters.
+
+2019-07-19 13:44:12,601 - Logger - INFO - test4:直接发送照片
+2019-07-19 13:44:19,245 - Logger - ERROR - test4:Message: An element could not be located on the page using the given search parameters.
+
+2019-07-19 13:44:19,248 - Logger - INFO - test5:拍照后勾选所拍照片发送
+2019-07-19 13:44:24,963 - Logger - ERROR - test5:Message: An element could not be located on the page using the given search parameters.
+
+2019-07-19 13:44:24,968 - Logger - INFO - test6_1:共享位置直接停止
+2019-07-19 13:44:30,408 - Logger - ERROR - test6_1:Message: An element could not be located on the page using the given search parameters.
+
+2019-07-19 13:44:30,412 - Logger - INFO - test6_2:共享位置返回聊天停止
+2019-07-19 13:44:36,396 - Logger - ERROR - test6_2:Message: An element could not be located on the page using the given search parameters.
+
+2019-07-19 13:44:36,400 - Logger - INFO - test7_1:分享联系人
+2019-07-19 13:44:41,493 - Logger - ERROR - test7_1:Message: An element could not be located on the page using the given search parameters.
+
+2019-07-19 13:44:41,497 - Logger - INFO - test7_2查询到指定联系人并分享查询的第一个
+2019-07-19 13:44:48,506 - Logger - ERROR - test7_2:Message: An element could not be located on the page using the given search parameters.
+
+2019-07-19 13:44:53,738 - Logger - INFO - 当前是未登录状态

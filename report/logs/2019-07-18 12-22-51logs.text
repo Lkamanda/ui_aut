@@ -1,0 +1,17 @@
+2019-07-18 12:23:01,529 - Logger - INFO - test6_2:共享位置返回聊天停止
+2019-07-18 12:23:09,395 - Logger - INFO - 进入与第一个联系人交互界面
+2019-07-18 12:23:40,248 - Logger - ERROR - Message: An element could not be located on the page using the given search parameters.
+
+2019-07-18 12:23:58,040 - Logger - INFO - 返回主页面
+2019-07-18 12:23:58,040 - Logger - INFO - test6_2执行了测试用例回归原点操作，测试标记失败结束
+2019-07-18 12:23:58,054 - Logger - INFO - test7_1:分享联系人
+2019-07-18 12:23:59,485 - Logger - INFO - 进入与第一个联系人交互界面
+2019-07-18 12:24:01,329 - Logger - INFO - add
+2019-07-18 12:24:22,093 - Logger - INFO - 进入contacts page
+2019-07-18 12:24:23,512 - Logger - INFO - 选择第一张contacts发送
+2019-07-18 12:24:25,121 - Logger - INFO - add
+2019-07-18 12:24:45,923 - Logger - INFO - 进入contacts page
+2019-07-18 12:24:47,283 - Logger - INFO - 选择第一张contacts发送
+2019-07-18 12:24:59,864 - Logger - INFO - 并未返回主页
+2019-07-18 12:25:06,240 - Logger - INFO - 并未返回主页面
+2019-07-18 12:25:12,895 - Logger - INFO - 并未返回主页

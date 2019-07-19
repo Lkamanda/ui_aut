@@ -1,0 +1,10 @@
+2019-07-18 10:45:25,023 - Logger - DEBUG - test5:拍照后勾选所拍照片发送
+2019-07-18 10:45:32,565 - Logger - INFO - 进入与第一个联系人交互界面
+2019-07-18 10:45:36,237 - Logger - INFO - 触发聊天成功
+2019-07-18 10:46:17,399 - Logger - INFO - 进入拍摄page
+2019-07-18 10:46:39,705 - Logger - ERROR - Message: An element could not be located on the page using the given search parameters.
+
+2019-07-18 10:47:49,235 - Logger - INFO - 返回主页面
+2019-07-18 10:47:49,236 - Logger - INFO - test5执行了测试用例回归原点操作，测试标记失败结束
+2019-07-18 10:47:49,250 - Logger - DEBUG - test6_1:共享位置直接停止
+2019-07-18 10:47:50,721 - Logger - INFO - 进入与第一个联系人交互界面

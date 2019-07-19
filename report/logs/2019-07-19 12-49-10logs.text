@@ -1,0 +1,4 @@
+2019-07-19 12:49:27,392 - Logger - ERROR - 'Test1' object has no attribute 'find_element_by_id'
+2019-07-19 12:49:45,264 - Logger - INFO - 返回主页面
+2019-07-19 12:49:45,265 - Logger - INFO - test1执行了测试用例回归原点操作，测试标记失败结束
+2019-07-19 12:49:45,274 - Logger - INFO - test2:与聊天page下第一个联系人发起回话

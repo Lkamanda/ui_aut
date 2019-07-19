@@ -1,0 +1,35 @@
+2019-07-18 16:21:04,416 - Logger - INFO - 进入登录校验
+2019-07-18 16:21:10,117 - Logger - INFO - 当前是未登录状态
+2019-07-18 16:21:11,756 - Logger - INFO - 进入我的页面
+2019-07-18 16:21:12,882 - Logger - INFO - 点击注册/登录 进入登录页面
+2019-07-18 16:21:16,066 - Logger - INFO - 点击微信图标进行登录
+2019-07-18 16:21:21,909 - Logger - INFO - True
+2019-07-18 16:21:28,576 - Logger - INFO - 并未返回主页
+2019-07-18 16:21:35,735 - Logger - INFO - 并未返回主页面
+2019-07-18 16:21:42,937 - Logger - INFO - 并未返回主页
+2019-07-18 16:21:49,023 - Logger - INFO - 并未返回主页面
+2019-07-18 16:21:50,101 - Logger - INFO - 返回主页面
+2019-07-18 16:21:50,101 - Logger - INFO - test1登录回归原点
+2019-07-18 16:21:50,103 - Logger - INFO - test2_1:通过搜索分享地点 start
+2019-07-18 16:21:52,034 - Logger - INFO - 进入与第一个联系人交互界面
+2019-07-18 16:22:16,690 - Logger - ERROR - Message: An element could not be located on the page using the given search parameters.
+
+2019-07-18 16:24:06,812 - Logger - INFO - 返回主页面
+2019-07-18 16:24:06,812 - Logger - INFO - test2_1执行了测试用例回归原点操作，测试标记失败结束
+2019-07-18 16:24:06,825 - Logger - INFO - test2_2:通过搜索分享街道 start
+2019-07-18 16:24:06,829 - Logger - INFO - test2_3:通过搜索分享城市 start
+2019-07-18 16:24:08,836 - Logger - INFO - 进入与第一个联系人交互界面
+2019-07-18 16:25:13,994 - Logger - ERROR - Message: An element could not be located on the page using the given search parameters.
+
+2019-07-18 16:25:41,411 - Logger - INFO - 返回主页面
+2019-07-18 16:25:41,411 - Logger - INFO - test2_3执行了测试用例回归原点操作，测试标记失败结束
+2019-07-18 16:25:41,420 - Logger - INFO - test3_1_Sleep:住宿下分享 start
+2019-07-18 16:25:42,746 - Logger - INFO - 进入与第一个联系人交互界面
+2019-07-18 16:25:51,564 - Logger - ERROR - Message: An element could not be located on the page using the given search parameters.
+
+2019-07-18 16:26:10,051 - Logger - INFO - 返回主页面
+2019-07-18 16:26:10,051 - Logger - INFO - test3_1_Sleep执行了测试用例回归原点操作，测试标记失败结束
+2019-07-18 16:26:10,060 - Logger - DEBUG - test3_2_Food:美食下分享 start
+2019-07-18 16:26:12,274 - Logger - INFO - 进入与第一个联系人交互界面
+2019-07-18 16:26:17,529 - Logger - ERROR - Message: An element could not be located on the page using the given search parameters.
+

@@ -1,0 +1,5 @@
+2019-07-18 10:28:47,663 - Logger - DEBUG - test5:拍照后勾选所拍照片发送
+2019-07-18 10:28:58,900 - Logger - ERROR - Message: An element could not be located on the page using the given search parameters.
+
+2019-07-18 10:29:15,465 - Logger - INFO - 返回主页面
+2019-07-18 10:29:15,466 - Logger - INFO - test5执行了测试用例回归原点操作，测试标记失败结束

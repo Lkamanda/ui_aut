@@ -92,8 +92,8 @@ def logout(self, login_state):
         mylogger.bug("未执行退出操作")
 
 
-# 返回主页
 def return_home(self, test_name):
+    """返回主页"""
     while True:
         try:
             print("检查是否进入主页")

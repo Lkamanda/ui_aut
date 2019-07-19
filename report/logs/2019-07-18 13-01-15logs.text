@@ -1,0 +1,9 @@
+2019-07-18 13:01:24,854 - Logger - INFO - test6_2:共享位置返回聊天停止
+2019-07-18 13:01:30,894 - Logger - INFO - 进入与第一个联系人交互界面
+2019-07-18 13:01:36,786 - Logger - INFO - 位置共享结束,聊天终止
+2019-07-18 13:01:38,477 - Logger - INFO - test7_1:分享联系人
+2019-07-18 13:01:44,173 - Logger - ERROR - test7_1:Message: An element could not be located on the page using the given search parameters.
+
+2019-07-18 13:01:44,179 - Logger - INFO - test7_2查询到指定联系人并分享查询的第一个
+2019-07-18 13:01:50,409 - Logger - ERROR - test7_2:Message: An element could not be located on the page using the given search parameters.
+

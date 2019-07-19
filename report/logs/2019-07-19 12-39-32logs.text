@@ -1,0 +1,12 @@
+2019-07-19 12:40:01,369 - Logger - ERROR - Message: Locator Strategy 'com.erlinyou.worldlist:id/tv_city_value' is not supported for this session
+
+2019-07-19 12:40:06,074 - Logger - INFO - 返回主页面
+2019-07-19 12:40:06,074 - Logger - INFO - test1执行了测试用例回归原点操作，测试标记失败结束
+2019-07-19 12:40:06,088 - Logger - INFO - test2:与聊天page下第一个联系人发起回话
+2019-07-19 12:40:11,986 - Logger - ERROR - Message: An element could not be located on the page using the given search parameters.
+
+2019-07-19 12:40:28,649 - Logger - INFO - 返回主页面
+2019-07-19 12:40:28,650 - Logger - INFO - test2执行了测试用例回归原点操作，测试标记失败结束
+2019-07-19 12:40:28,659 - Logger - INFO - test3:第一个联系人发送照片和视频，预览
+2019-07-19 12:40:34,381 - Logger - ERROR - Message: An element could not be located on the page using the given search parameters.
+

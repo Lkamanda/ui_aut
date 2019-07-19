@@ -1,0 +1,7 @@
+2019-07-19 11:13:44,128 - Logger - INFO - 进入登录校验
+2019-07-19 11:13:49,605 - Logger - INFO - 当前是未登录状态
+2019-07-19 11:13:50,783 - Logger - INFO - 进入我的页面
+2019-07-19 11:13:51,825 - Logger - INFO - 点击注册/登录 进入登录页面
+2019-07-19 11:13:56,392 - Logger - INFO - 点击微信图标进行登录
+2019-07-19 11:14:01,439 - Logger - ERROR - Message: An element could not be located on the page using the given search parameters.
+

@@ -1,0 +1,5 @@
+2019-07-19 12:44:07,375 - Logger - ERROR - Message: Locator Strategy 'com.erlinyou.worldlist:id/tv_city_value' is not supported for this session
+
+2019-07-19 12:44:12,426 - Logger - INFO - 返回主页面
+2019-07-19 12:44:12,426 - Logger - INFO - test1执行了测试用例回归原点操作，测试标记失败结束
+2019-07-19 12:44:12,440 - Logger - INFO - test2:与聊天page下第一个联系人发起回话

@@ -1,8 +1,8 @@
 # 客户端连接 appium
 from log.logger import mylogger
 from comm.element_error import element_error ,element_error_main_chat
-
-
+from element_api.android_element.setting_city_page_elements import *
+from config.myconfig import myconfig
 # def get_desired_caps(mobile_config):
 #     desired_caps = {'platformName': 'Android',  # 手机类型
 #                     'platformVersion': mobile_config[0][1],  # 被测试手机，   baa822b7
@@ -44,14 +44,23 @@ def get_login_state(self):
 
 
 def get_agree(self):
-    """法律声明同义"""
+    """
+    法律声明同义
+    :param self:
+    :return:
+    """
+    global first_use
+    first_use = None
     try:
         self.driver.implicitly_wait(5)
         self.driver.find_element_by_id("com.erlinyou.worldlist:id/check").click()
         self.driver.implicitly_wait(5)
         self.driver.find_element_by_id("com.erlinyou.worldlist:id/agree").click()
+        first_use = True
+        return first_use
     except:
-        pass
+        first_use = False
+        return first_use
 
 
 def obtain_permission(self):
@@ -64,3 +73,42 @@ def obtain_permission(self):
             # driver.find_element_by_android_uiautomator('new UiSelector().textContains("允许")').click()
         except:
             pass
+    # 对于首次安装的程序
+    try:
+        self.driver.implicitly_wait(5)
+        self.driver.find_element_by_xpath("//*[@text='欢迎开启海外之旅']").click()
+        # self.find_element_by_id("com.erlinyou.worldlist:id/btn_start").click()
+        print("找到该元素")
+    except:
+        print("未找到指定的button")
+    setting_city(self)
+
+# 整个测试集运行第一次调用
+def setting_city(self):
+    """ 设置当前所在城市"""
+    city_text = myconfig.get_setting_city()
+    home_page_city(self=self)
+    setting_city_search(self=self, city_text=city_text)
+    self.driver.implicitly_wait(5)
+
+    self.driver.find_element_by_xpath("//android.widget.ListView/android.widget.LinearLayout[1]"
+                                      "/android.widget.LinearLayout").click()
+    # self.driver.find_element_by_android_uiautomator('new UiSelector().textContains("巴黎")').click()
+    # self.driver.find_element_by_xpath("*[@text='北京市']").click()
+    self.assertEqual(True, check_setting_city(self=self, city_text=city_text))
+
+def check_setting_city(self, city_text):
+    check_element = self.driver.find_element_by_id("com.erlinyou.worldlist:id/tv_city_value")
+    if city_text == check_element.get_attribute("text"):
+        mylogger.info("设置城市成功")
+        return True
+
+    else:
+        mylogger.info("设置城市失败")
+        return False
+
+
+
+
+
+

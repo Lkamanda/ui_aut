@@ -1,0 +1,51 @@
+2019-07-18 10:48:13,720 - Logger - DEBUG - test5:拍照后勾选所拍照片发送
+2019-07-18 10:48:19,741 - Logger - INFO - 进入与第一个联系人交互界面
+2019-07-18 10:48:23,767 - Logger - INFO - 触发聊天成功
+2019-07-18 10:48:45,459 - Logger - INFO - 进入拍摄page
+2019-07-18 10:48:47,714 - Logger - INFO - 触发拍摄按钮
+2019-07-18 10:49:05,622 - Logger - INFO - 并未返回主页
+2019-07-18 10:49:12,617 - Logger - INFO - 并未返回主页面
+2019-07-18 10:49:18,937 - Logger - INFO - 并未返回主页
+2019-07-18 10:49:25,520 - Logger - INFO - 并未返回主页面
+2019-07-18 10:49:26,951 - Logger - INFO - 返回主页面
+2019-07-18 10:49:26,951 - Logger - INFO - test5:拍照后勾选所拍照片发送回归原点
+2019-07-18 10:49:26,952 - Logger - DEBUG - test6_1:共享位置直接停止
+2019-07-18 10:49:28,356 - Logger - INFO - 进入与第一个联系人交互界面
+2019-07-18 10:49:59,600 - Logger - INFO - 停止按钮从页面消失，断言结果为True
+2019-07-18 10:50:00,667 - Logger - INFO - 返回主页面
+2019-07-18 10:50:00,668 - Logger - INFO - test6_1:共享位置直接停止回归原点
+2019-07-18 10:50:00,669 - Logger - DEBUG - test6_2:共享位置返回聊天停止
+2019-07-18 10:50:02,457 - Logger - INFO - 进入与第一个联系人交互界面
+2019-07-18 10:50:32,829 - Logger - ERROR - Message: An element could not be located on the page using the given search parameters.
+
+2019-07-18 10:50:49,794 - Logger - INFO - 返回主页面
+2019-07-18 10:50:49,794 - Logger - INFO - test6_2执行了测试用例回归原点操作，测试标记失败结束
+2019-07-18 10:50:49,808 - Logger - DEBUG - test7_1:分享联系人
+2019-07-18 10:50:51,560 - Logger - INFO - 进入与第一个联系人交互界面
+2019-07-18 10:50:53,274 - Logger - INFO - add
+2019-07-18 10:51:14,304 - Logger - INFO - 进入contacts page
+2019-07-18 10:51:15,594 - Logger - INFO - 选择第一张contacts发送
+2019-07-18 10:51:17,231 - Logger - INFO - add
+2019-07-18 10:51:37,850 - Logger - INFO - 进入contacts page
+2019-07-18 10:51:39,190 - Logger - INFO - 选择第一张contacts发送
+2019-07-18 10:51:51,272 - Logger - INFO - 并未返回主页
+2019-07-18 10:51:57,475 - Logger - INFO - 并未返回主页面
+2019-07-18 10:52:04,627 - Logger - INFO - 并未返回主页
+2019-07-18 10:52:10,960 - Logger - INFO - 并未返回主页面
+2019-07-18 10:52:12,415 - Logger - INFO - 返回主页面
+2019-07-18 10:52:12,416 - Logger - INFO - test7_1:分享联系人回归原点
+2019-07-18 10:52:12,416 - Logger - DEBUG - test7_2查询到指定联系人并分享查询的第一个
+2019-07-18 10:52:17,680 - Logger - ERROR - Message: An element could not be located on the page using the given search parameters.
+
+2019-07-18 10:52:22,274 - Logger - INFO - 返回主页面
+2019-07-18 10:52:22,275 - Logger - INFO - test7_2执行了测试用例回归原点操作，测试标记失败结束
+2019-07-18 10:52:22,697 - Logger - INFO - 进入登录校验
+2019-07-18 10:52:23,544 - Logger - INFO - 当前是登录状态
+2019-07-18 10:52:24,729 - Logger - INFO - get into mine home page
+2019-07-18 10:52:33,877 - Logger - INFO - 向上滑动屏幕
+2019-07-18 10:52:35,602 - Logger - INFO - 触发退出登录按钮
+2019-07-18 10:52:36,923 - Logger - INFO - 确认退出登录退出
+2019-07-18 10:52:39,982 - Logger - INFO - 返回我的页面
+2019-07-18 10:52:39,986 - Logger - INFO - 进入退出验证
+2019-07-18 10:52:40,968 - Logger - INFO - True
+2019-07-18 10:52:40,968 - Logger - INFO - 登录退出成功
