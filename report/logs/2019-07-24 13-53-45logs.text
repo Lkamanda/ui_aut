@@ -1,0 +1,11 @@
+2019-07-24 13:53:56,489 - Logger - INFO - test2_a_0回家
+2019-07-24 13:53:56,489 - Logger - INFO - 研发版：即将进入设置当前城市
+2019-07-24 13:54:10,012 - Logger - INFO - 设置城市成功
+2019-07-24 13:54:15,463 - Logger - ERROR - Message: An element could not be located on the page using the given search parameters.
+
+2019-07-24 13:54:32,298 - Logger - INFO - 返回主页面
+2019-07-24 13:54:32,299 - Logger - INFO - test2_a_0执行了测试用例回归原点操作，测试标记失败结束
+2019-07-24 13:54:37,826 - Logger - ERROR - Message: An element could not be located on the page using the given search parameters.
+
+2019-07-24 13:54:43,034 - Logger - INFO - 返回主页面
+2019-07-24 13:54:43,035 - Logger - INFO - test2_a_0执行了测试用例回归原点操作，测试标记失败结束

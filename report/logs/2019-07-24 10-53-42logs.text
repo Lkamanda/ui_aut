@@ -1,0 +1,9 @@
+2019-07-24 10:53:57,748 - Logger - INFO - 进入登录校验
+2019-07-24 10:54:02,828 - Logger - INFO - 当前是未登录状态
+2019-07-24 10:54:03,812 - Logger - DEBUG - mobile账号密码登录
+2019-07-24 10:54:08,846 - Logger - ERROR - test1_a:Message: An element could not be located on the page using the given search parameters.
+
+2019-07-24 10:54:08,852 - Logger - INFO - test2_a_0回家
+2019-07-24 10:54:08,852 - Logger - INFO - 研发版：即将进入设置当前城市
+2019-07-24 10:54:14,108 - Logger - ERROR - Message: An element could not be located on the page using the given search parameters.
+

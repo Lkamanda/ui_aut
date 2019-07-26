@@ -1,0 +1,17 @@
+2019-07-24 10:51:52,786 - Logger - INFO - 进入登录校验
+2019-07-24 10:51:58,262 - Logger - INFO - 当前是未登录状态
+2019-07-24 10:52:00,015 - Logger - DEBUG - mobile账号密码登录
+2019-07-24 10:52:05,232 - Logger - ERROR - test1_a:Message: An element could not be located on the page using the given search parameters.
+
+2019-07-24 10:52:05,238 - Logger - INFO - test2_a_0回家
+2019-07-24 10:52:05,238 - Logger - INFO - 研发版：即将进入设置当前城市
+2019-07-24 10:52:10,825 - Logger - ERROR - Message: An element could not be located on the page using the given search parameters.
+
+2019-07-24 10:52:27,994 - Logger - INFO - 返回主页面
+2019-07-24 10:52:27,994 - Logger - INFO - test2_a_0执行了测试用例回归原点操作，测试标记失败结束
+2019-07-24 10:52:27,999 - Logger - INFO - test2_a_1取消回家操作
+2019-07-24 10:52:29,372 - Logger - INFO - 进入添加家的测试用例
+2019-07-24 10:52:36,424 - Logger - INFO - 触发输入家的地址成功
+2019-07-24 10:52:39,521 - Logger - INFO - 选择搜索结果成功
+2019-07-24 10:52:45,538 - Logger - ERROR - Message: An element could not be located on the page using the given search parameters.
+

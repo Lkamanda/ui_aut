@@ -17,3 +17,16 @@ def check_login(self, login_state,  test_name):
         screenShot(self, test_name)
         return False
 
+def check_setting_go_home(self, home_address):
+    """
+    校验回家, 回公司
+    :param self:
+    :param home_address:
+    :return:
+    """
+    try:
+        self.driver.implicitly_wait(5)
+        self.driver.find_element_by_xpath("*[@text= %s ]") % home_address
+        return True
+    except Exception as e:
+        return False

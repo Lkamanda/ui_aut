@@ -1,0 +1,8 @@
+2019-07-24 13:40:42,526 - Logger - INFO - test2_a_0回家
+2019-07-24 13:40:42,527 - Logger - INFO - 研发版：即将进入设置当前城市
+2019-07-24 13:40:55,791 - Logger - INFO - 设置城市成功
+2019-07-24 13:40:57,562 - Logger - INFO - 进入添加家的测试用例
+2019-07-24 13:41:03,964 - Logger - INFO - 触发输入家的地址成功
+2019-07-24 13:41:10,938 - Logger - INFO - test2_a_1取消回家操作
+2019-07-24 13:41:16,266 - Logger - ERROR - Message: An element could not be located on the page using the given search parameters.
+

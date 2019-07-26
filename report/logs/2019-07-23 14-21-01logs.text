@@ -1,0 +1,8 @@
+2019-07-23 14:21:13,488 - Logger - INFO - test3:第一个联系人发送照片和视频，预览
+2019-07-23 14:21:18,850 - Logger - ERROR - test3:Message: An element could not be located on the page using the given search parameters.
+
+2019-07-23 14:21:18,855 - Logger - INFO - test4:直接发送照片
+2019-07-23 14:21:24,120 - Logger - ERROR - test4:Message: An element could not be located on the page using the given search parameters.
+
+2019-07-23 14:21:24,127 - Logger - INFO - test5:拍照后勾选所拍照片发送
+2019-07-23 14:21:28,788 - Logger - INFO - 进入与第一个联系人交互界面

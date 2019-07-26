@@ -1,0 +1,7 @@
+2019-07-23 17:25:32,258 - Logger - INFO - 进入登录校验
+2019-07-23 17:25:33,489 - Logger - INFO - 当前是登录状态
+2019-07-23 17:25:34,604 - Logger - INFO - 返回主页面
+2019-07-23 17:25:34,604 - Logger - INFO - test1_a登录回归原点
+2019-07-23 17:25:34,606 - Logger - INFO - test2_a_0回家
+2019-07-23 17:25:39,885 - Logger - ERROR - Message: An element could not be located on the page using the given search parameters.
+

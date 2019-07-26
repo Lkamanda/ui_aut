@@ -156,3 +156,4 @@ def always_allow(self, number=5):
             self.driver.find_element_by_xpath("//*[@text='允许']").click()
         except:
             pass
+

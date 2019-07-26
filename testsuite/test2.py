@@ -1,27 +1,21 @@
 from comm.common import *
 import unittest
+from log.logger import mylogger
 from comm.webdriver import *
-from element_api.android_element.place_page_elements import *
 from public.public_module import *
 from comm.comm_api import *
-from log.logger import mylogger
-from element_api.android_element.home_page_elements import mainChat_element
-from element_api.android_element.chat_page_elements import *
+from element_api.android_element.elements import *
 
 class Test2(WebDriver, unittest.TestCase):
 
     def test1(self):
-        # 对于新安装的app进行获取权限
         test_name = "%s登录" % self._testMethodName
-
-        get_agree(self)
-        obtain_permission(self=self)
 
         # 获取登录状态
         login_state = get_login_state(self)
 
         # 微信登录，前提是手机当前已有微信运行
-        login(self=self, mode=2, login_state=login_state)
+        login(self=self, mode=1, login_state=login_state)
 
         # 返回首页
         return_home(self, test_name)

@@ -7,7 +7,7 @@ from log.logger import mylogger
 def navigation_details_input_box_element(self):
     """导航页面搜索框"""
     try:
-
+        self.driver.implicitly_wait(5)
         self.driver.find_element_by_id("com.erlinyou.worldlist:id/searchtextview").click()
     except Exception as e:
         element_error(self, e)
@@ -16,7 +16,7 @@ def navigation_details_input_box_element(self):
 def navigation_details_goto_element(self):
     """导航页面到这去"""
     try:
-
+        self.driver.implicitly_wait(5)
         self.driver.find_element_by_id("com.erlinyou.worldlist:id/top_map_mode_img").click()
     except Exception as e:
         element_error(self, e)
@@ -25,7 +25,7 @@ def navigation_details_goto_element(self):
 def navigation_details_simulation_navigation_element(self):
     """导航页模拟导航"""
     try:
-
+        self.driver.implicitly_wait(5)
         self.driver.find_element_by_id("com.erlinyou.worldlist:id/ll_analog_navi").click()
     except Exception as e:
         element_error(self, e)
@@ -34,7 +34,7 @@ def navigation_details_simulation_navigation_element(self):
 def navigation_details_consult_map_element(self):
     """查看地图"""
     try:
-
+        self.driver.implicitly_wait(5)
         self.driver.find_element_by_id("com.erlinyou.worldlist:id/ll_view_map").click()
     except Exception as e:
         element_error(self, e)
@@ -43,7 +43,7 @@ def navigation_details_consult_map_element(self):
 def navigation_details_navigation_element(self):
     """导航页导航"""
     try:
-
+        self.driver.implicitly_wait(5)
         self.driver.find_element_by_id("com.erlinyou.worldlist:id/ll_navi").click()
     except Exception as e:
         element_error(self, e)

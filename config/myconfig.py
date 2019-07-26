@@ -31,13 +31,14 @@ class MyConfig:
             self.setting_city = u"北京市"
         elif self.config_number == 1:
             print("进入发布版")
-            self.place_input = [u"北京西站", u"上地五街", u"beijing", u"龙泽苑西区南门", u" 北京市昌平区回龙关西大街111号", u"搜狗", u"奥林匹克公园",
-                                u"望京soho"]
+            self.place_input = [u"北京西站", u"上地五街", u"beijing", u"埃菲尔铁塔", u" 北京市昌平区回龙关西大街111号", u"搜狗", u"奥林匹克公园",
+                                u"巴黎圣母"]
             self.home_page_details_input = [u"龙泽苑西区"]
             self.rename_text = u"重命名收藏地点"
             self.new_trip_input_text = [u"北京一日游"]
             self.new_trip_add_place = [u"望京SOHO", u"天安门", u"天坛", u"搜狗"]
             self.setting_city = "巴黎"
+
     def get_mobile_number(self):
         return self.mobile_number
 

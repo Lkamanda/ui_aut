@@ -1,0 +1,43 @@
+2019-07-24 10:37:52,743 - Logger - INFO - 进入登录校验
+2019-07-24 10:37:53,643 - Logger - INFO - 当前是登录状态
+2019-07-24 10:37:54,720 - Logger - INFO - 返回主页面
+2019-07-24 10:37:54,720 - Logger - INFO - test1_a登录回归原点
+2019-07-24 10:37:54,722 - Logger - INFO - test2_a_0回家
+2019-07-24 10:37:54,722 - Logger - INFO - 研发版：即将进入设置当前城市
+2019-07-24 10:38:05,052 - Logger - INFO - 设置城市成功
+2019-07-24 10:38:10,554 - Logger - ERROR - Message: An element could not be located on the page using the given search parameters.
+
+2019-07-24 10:38:27,174 - Logger - INFO - 返回主页面
+2019-07-24 10:38:27,175 - Logger - INFO - test2_a_0执行了测试用例回归原点操作，测试标记失败结束
+2019-07-24 10:38:32,474 - Logger - ERROR - Message: An element could not be located on the page using the given search parameters.
+
+2019-07-24 10:38:37,476 - Logger - INFO - 返回主页面
+2019-07-24 10:38:37,477 - Logger - INFO - test2_a_0执行了测试用例回归原点操作，测试标记失败结束
+2019-07-24 10:38:37,494 - Logger - INFO - test2_a_1取消回家操作
+2019-07-24 10:38:43,199 - Logger - ERROR - Message: An element could not be located on the page using the given search parameters.
+
+2019-07-24 10:39:00,613 - Logger - INFO - 返回主页面
+2019-07-24 10:39:00,614 - Logger - INFO - test2_a_1执行了测试用例回归原点操作，测试标记失败结束
+2019-07-24 10:39:00,614 - Logger - INFO - 当前用户已经设置了回家
+2019-07-24 10:39:05,847 - Logger - ERROR - Message: An element could not be located on the page using the given search parameters.
+
+2019-07-24 10:40:16,898 - Logger - INFO - 返回主页面
+2019-07-24 10:40:16,899 - Logger - INFO - test2_a_1执行了测试用例回归原点操作，测试标记失败结束
+2019-07-24 10:40:16,916 - Logger - INFO - test2_a_2回公司
+2019-07-24 10:40:18,552 - Logger - INFO - 进入添加公司的测试用例
+2019-07-24 10:40:25,064 - Logger - INFO - 触发输入公司的地址成功
+2019-07-24 10:40:26,950 - Logger - INFO - 选择搜索结果成功
+2019-07-24 10:40:27,993 - Logger - INFO - 进入导航页
+2019-07-24 10:40:36,888 - Logger - INFO - 开始规划路线
+2019-07-24 10:40:41,981 - Logger - ERROR - Message: An element could not be located on the page using the given search parameters.
+
+2019-07-24 10:40:45,231 - Logger - INFO - 返回主页面
+2019-07-24 10:40:45,232 - Logger - INFO - test2_a_2执行了测试用例回归原点操作，测试标记失败结束
+2019-07-24 10:40:45,242 - Logger - INFO - 旋转地图
+2019-07-24 10:40:53,749 - Logger - ERROR - Message: An element could not be located on the page using the given search parameters.
+
+2019-07-24 10:41:24,757 - Logger - INFO - 返回主页面
+2019-07-24 10:41:24,757 - Logger - INFO - test3_a执行了测试用例回归原点操作，测试标记失败结束
+2019-07-24 10:41:24,766 - Logger - INFO - 2D和3D之间的切换
+2019-07-24 10:41:35,989 - Logger - ERROR - Message: An element could not be located on the page using the given search parameters.
+

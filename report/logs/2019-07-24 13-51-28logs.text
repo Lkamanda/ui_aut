@@ -1,0 +1,13 @@
+2019-07-24 13:51:40,867 - Logger - INFO - test2_a_0回家
+2019-07-24 13:51:40,868 - Logger - INFO - 研发版：即将进入设置当前城市
+2019-07-24 13:51:54,270 - Logger - INFO - 设置城市成功
+2019-07-24 13:51:56,206 - Logger - INFO - 进入添加家的测试用例
+2019-07-24 13:52:02,988 - Logger - INFO - 触发输入家的地址成功
+2019-07-24 13:52:05,732 - Logger - INFO - 选择搜索结果成功
+2019-07-24 13:52:08,437 - Logger - INFO - 进入导航页
+2019-07-24 13:52:14,051 - Logger - INFO - 开始规划路线
+2019-07-24 13:52:16,624 - Logger - INFO - 开始导航
+2019-07-24 13:52:21,187 - Logger - INFO - 返回主页面
+2019-07-24 13:52:21,193 - Logger - INFO - test2_a_1取消回家操作
+2019-07-24 13:52:27,471 - Logger - ERROR - Message: An element could not be located on the page using the given search parameters.
+

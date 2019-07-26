@@ -195,3 +195,15 @@ def check_withdrawn(self):
     except:
         print(True)
         return True
+
+
+def check_send_photo_success(self):
+    print("运行了一次check")
+    try:
+        self.driver.implicitly_wait(5)
+        self.driver.find_element_by_id("com.erlinyou.worldlist:id/img_more")
+        return True
+    except Exception as e:
+        print(e)
+        mylogger.info("发送图片校验失败")
+        return False

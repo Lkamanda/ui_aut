@@ -1,0 +1,22 @@
+2019-07-24 12:35:13,927 - Logger - INFO - 进入登录校验
+2019-07-24 12:35:19,440 - Logger - INFO - 当前是未登录状态
+2019-07-24 12:35:20,439 - Logger - DEBUG - mobile账号密码登录
+2019-07-24 12:35:20,439 - Logger - INFO - 进入登录页面成功
+2019-07-24 12:35:21,295 - Logger - INFO - 切换成账号密码登录
+2019-07-24 12:35:31,975 - Logger - INFO - 输入账号成功
+2019-07-24 12:35:37,111 - Logger - INFO - 输如密码成功
+2019-07-24 12:35:37,871 - Logger - INFO - 触发登录
+2019-07-24 12:35:39,545 - Logger - INFO - 进入消息界面成功
+2019-07-24 12:35:39,545 - Logger - INFO - mobile 登录成功
+2019-07-24 12:35:45,710 - Logger - INFO - 并未返回主页
+2019-07-24 12:35:53,296 - Logger - INFO - 并未返回主页面
+2019-07-24 12:35:54,752 - Logger - INFO - 返回主页面
+2019-07-24 12:35:54,752 - Logger - INFO - test1_a登录回归原点
+2019-07-24 12:35:54,753 - Logger - INFO - test2_a_0回家
+2019-07-24 12:35:54,753 - Logger - INFO - 研发版：即将进入设置当前城市
+2019-07-24 12:36:03,893 - Logger - INFO - 设置城市成功
+2019-07-24 12:36:05,559 - Logger - INFO - 进入添加家的测试用例
+2019-07-24 12:36:11,956 - Logger - INFO - 触发输入家的地址成功
+2019-07-24 12:36:19,025 - Logger - INFO - test2_a_1取消回家操作
+2019-07-24 12:36:24,327 - Logger - ERROR - Message: An element could not be located on the page using the given search parameters.
+

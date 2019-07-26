@@ -13,7 +13,6 @@ def roam_page_look_more_element(self):
 def roam_page_goto_element(self):
     """到这去"""
     try:
-
         self.driver.find_element_by_id("com.erlinyou.worldlist:id/ll_top_map_mode_img").click()
     except Exception as e:
         element_error(self, e)

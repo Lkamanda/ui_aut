@@ -1,12 +1,10 @@
 import unittest
 from comm.webdriver import *
 from comm.comm_api import *
-from public.assertion import check_share_location_stop
+from public.assertion import check_share_location_stop, check_send_photo_success
 import public.public_module
-from element_api.android_element.home_page_elements import *
-from element_api.android_element.chat_page_elements import *
 from config.myconfig import myconfig
-
+from element_api.android_element.elements import *
 
 class Test1(WebDriver, unittest.TestCase):
 
@@ -30,6 +28,7 @@ class Test1(WebDriver, unittest.TestCase):
 
     def test2(self):
         """与聊天page下第一个联系人发起回话"""
+
         test_name = "%s:与聊天page下第一个联系人发起回话" % self._testMethodName
         mylogger.info(test_name)
 
@@ -83,12 +82,13 @@ class Test1(WebDriver, unittest.TestCase):
         swipeLeft(self, 1000)
 
         chat_add_photo_preview_send(self)
-        self.driver.implicitly_wait(30)
-        #加入校验
+        #------------------------加入校验-----------------------------------------
+        check = check_send_photo_success(self)
+        print(check)
         mylogger.info("照片上传成功")
-
         # 返回首页操作
         public.public_module.return_home(self, test_name)
+        self.assertEqual(True, check)
 
     def test4(self):
         """直接发送照片"""
@@ -104,7 +104,11 @@ class Test1(WebDriver, unittest.TestCase):
         self.driver.find_element_by_id("et_msg").click()  # com.erlinyou.worldlist:id/
         chat_img_more_element(self)
         mylogger.info("点击+号")
-
+        try:
+            self.driver.implicitly_wait(5)
+            self.driver.find_element_by_xpath("//*[@text='允许']").click()
+        except:
+            print("未触发相机权限")
         self.driver.implicitly_wait(15)
         chat_add_photo_album(self)
         mylogger.info("点击进入相册界面")
@@ -134,6 +138,7 @@ class Test1(WebDriver, unittest.TestCase):
 
         first_chat_element(self)
         mylogger.info("进入与第一个联系人交互界面")
+
 
         self.driver.implicitly_wait(5)
         self.driver.find_element_by_id("com.erlinyou.worldlist:id/et_msg").click()

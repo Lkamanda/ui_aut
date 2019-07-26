@@ -19,7 +19,7 @@ from config.myconfig import myconfig
 #     return desired_caps
 
 
-def get_login_state(self):
+def  get_login_state(self):
     """校验当前是否是登录状态"""
     login_state = 0
     try:
@@ -91,13 +91,14 @@ def setting_city(self):
     setting_city_search(self=self, city_text=city_text)
     self.driver.implicitly_wait(5)
 
-    self.driver.find_element_by_xpath("//android.widget.ListView/android.widget.LinearLayout[1]"
-                                      "/android.widget.LinearLayout").click()
+    # self.driver.find_element_by_xpath("//android.widget.ListView/android.widget.LinearLayout[1]"
+    #                                   "/android.widget.LinearLayout").click()
     # self.driver.find_element_by_android_uiautomator('new UiSelector().textContains("巴黎")').click()
     # self.driver.find_element_by_xpath("*[@text='北京市']").click()
     self.assertEqual(True, check_setting_city(self=self, city_text=city_text))
 
 def check_setting_city(self, city_text):
+    # 设置城市
     check_element = self.driver.find_element_by_id("com.erlinyou.worldlist:id/tv_city_value")
     if city_text == check_element.get_attribute("text"):
         mylogger.info("设置城市成功")
@@ -106,6 +107,25 @@ def check_setting_city(self, city_text):
     else:
         mylogger.info("设置城市失败")
         return False
+
+
+def through_config_setting(self, config_number):
+    # 通过配置文件中的config number 来进行成市设置
+    if config_number == 0:
+        pass
+    else:
+        mylogger.info("研发版：即将进入设置当前城市")
+
+        city_text = myconfig.get_setting_city()
+        home_page_city(self=self)
+        setting_city_search(self=self, city_text=city_text)
+        self.driver.implicitly_wait(5)
+
+        self.driver.find_element_by_xpath("//android.widget.ListView/android.widget.LinearLayout[1]"
+                                          "/android.widget.LinearLayout").click()
+        # self.driver.find_element_by_android_uiautomator('new UiSelector().textContains("巴黎")').click()
+        # self.driver.find_element_by_xpath("*[@text='巴黎']").click()
+        self.assertEqual(True, check_setting_city(self=self, city_text=city_text))
 
 
 

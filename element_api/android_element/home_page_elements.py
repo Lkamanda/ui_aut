@@ -29,16 +29,23 @@ def homepage_roam_element(self):
         self.driver.find_element_by_id("com.erlinyou.worldlist:id/iv_starthelicopter").click()
     except Exception as e:
         element_error(self, e)
-
+# com.erlinyou.worldlist:id/search_edit
 
 def homepage_input_box(self):
     """主页面输入框"""
     try:
         self.driver.implicitly_wait(5)
-        self.driver.find_element_by_id("searchtextview").click()
+        self.driver.find_element_by_id("com.erlinyou.worldlist:id/searchtextview").click()
     except Exception as e:
         element_error(self, e)
 
+def homepage_input_box_details(self):
+    """主页面输入框详情页输入框"""
+    try:
+        self.driver.implicitly_wait(5)
+        self.driver.find_element_by_id("com.erlinyou.worldlist:id/search_edit").click()
+    except Exception as e:
+        element_error(self, e)
 
 def homepage_location_element(self):
     """首页定位自身，和旋转"""

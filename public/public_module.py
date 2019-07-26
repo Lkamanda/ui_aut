@@ -24,10 +24,10 @@ def login(self, mode, login_state):
             # 账号密码登录
             self.driver.implicitly_wait(5)
             mainChat_element(self)
+
             test_name = "mobile账号密码登录"
             mylogger.debug(test_name)  # 返回测试用例名称
-            self.driver.implicitly_wait(5)
-            mainChat_element(self)
+
             mylogger.info("进入登录页面成功")
             self.driver.implicitly_wait(5)
             mobile_title_element(self)

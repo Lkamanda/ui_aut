@@ -1,0 +1,2 @@
+2019-07-23 15:37:39,455 - Logger - INFO - test3:第一个联系人发送照片和视频，预览
+2019-07-23 15:37:39,456 - Logger - ERROR - test3:'Test1' object has no attribute 'driver'
